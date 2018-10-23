@@ -3,12 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9D23A5E-5530-4680-AD5C-91D5DA5A9C4E}"
-	ProjectSection(SolutionItems) = preProject
-		Class1.cs = Class1.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receipt Itemizer", "Receipt Itemizer\Receipt Itemizer.csproj", "{A2516855-70D1-41E3-94A5-59AF156D44BA}"
 EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2516855-70D1-41E3-94A5-59AF156D44BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2516855-70D1-41E3-94A5-59AF156D44BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2516855-70D1-41E3-94A5-59AF156D44BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2516855-70D1-41E3-94A5-59AF156D44BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
