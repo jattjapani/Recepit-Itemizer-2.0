@@ -42,6 +42,7 @@ namespace Receipt_Itemizer
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            
             decimal dItemAmount;
             decimal dTax;
             decimal dCoupon = 0;
